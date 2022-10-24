@@ -1,0 +1,187 @@
+.home {
+  margin: auto 0;
+  margin-top: 300px;
+}
+.home h1 {
+  text-align: center;
+}
+
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.student {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student a {
+  margin: 10px;
+}
+.teacher {
+  display: flex;
+}
+
+.teacher h3 {
+  margin: 10px;
+  border: 2px solid;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.student h3 {
+  margin: 10px;
+  border: 2px solid;
+  background-color: rgb(180, 255, 41);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.classroom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.classroom h3 {
+  margin: 10px;
+  border: 2px solid;
+  background-color: rgb(245, 46, 162);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+input {
+  width: 50%;
+}
+.viewclassroom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.viewclassroombtn1 {
+  margin: 10px;
+  background-color: blue;
+}
+
+.viewclassroombtn2 {
+  margin: 10px;
+  background-color: rgb(19, 213, 2);
+}
+
+.creatclass_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(245, 46, 162);
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 40%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.viewstudentroombtn1 {
+  margin: 10px;
+  background-color: rgb(0, 75, 174);
+}
+
+.viewstudentroombtn2 {
+  margin: 10px;
+  background-color: rgb(19, 213, 2);
+}
+
+.createteacher_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 0, 0);
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 40%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.createstudent_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 0, 0);
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 40%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.landing_container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+.landing1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border-radius: 20px;
+  margin: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.landing_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.head {
+  text-align: center;
+  color: darkblue;
+}
+a {
+  text-decoration: none;
+}
+
+.viewstudent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.viewsteacher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.viewclassroom th,
+td {
+  padding: 8px;
+}
